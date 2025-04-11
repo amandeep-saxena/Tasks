@@ -13,7 +13,6 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 
-// Test the database connection
 sequelize
     .authenticate()
     .then(() => {
